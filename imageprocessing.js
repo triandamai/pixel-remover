@@ -12,7 +12,7 @@ const colors = [
     [48,35,46,1]
 ]
 
-export function setupCounter(element) {
+export function imageProcessing(element) {
     const canvas = document.createElement('canvas')
     const ctx = canvas.getContext("2d")
     const image = new Image(30,25)

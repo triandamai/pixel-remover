@@ -1,7 +1,7 @@
 import './style.css'
-import { setupCounter } from './counter.js'
+import { imageProcessing } from './imageprocessing.js'
 
 window.addEventListener('DOMContentLoaded',()=>{
-    setupCounter(document.querySelector('#app'))
+    imageProcessing(document.querySelector('#app'))
 })
 
